@@ -1,0 +1,89 @@
+problem 1 solution :-
+select * from city ;
+
+Problem 2 solution :-
+     select * from city where id =1661 ;
+
+      Your Output (stdout)
+      1661
+      Sayama
+      JPN
+      Saitama
+      162472
+
+problem 3 solution :-
+   select* from CITY where countrycode='USA' and population>100000;
+
+Your Output (stdout)
+3878
+ Scottsdale
+ USA 
+Arizona 
+202705
+3965
+ Corona 
+USA 
+California
+ 124966
+3973
+ Concord
+3878
+ Scottsdale
+ USA
+ Arizona 
+202705
+3965
+ Corona
+ USA 
+California 
+124966
+3973
+ Concord
+ USA 
+California
+ 121780
+3977 
+Cedar 
+Rapids 
+USA
+ Iowa 
+120758
+3982 
+Coral
+ Springs 
+USA 
+Florida 
+117549
+
+problem 4 solution :-
+   SELECT NAME FROM CITY WHERE COUNTRYCODE = "JPN";
+
+Your Output (stdout)
+Neyagawa
+Ageo
+Sayama
+Omuta
+Tokuyama
+
+problem 5 solution :-
+    select name from students 
+    where Marks >75
+    order by substr(name,-3), ID;
+Your Output (stdout)
+Stuart
+Kristeen
+Christene
+Amina
+Aamina
+Priya
+Heraldo
+Scarlet
+Julia
+Salma
+Britney
+Priyanka
+Samantha
+Vivek
+Belvet
+Devil
+Evil
